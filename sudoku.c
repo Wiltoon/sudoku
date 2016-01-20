@@ -31,7 +31,7 @@ int ProcurarElemento(int el, int** sudoku, int n, int** verdadeiro, int qnt)
       }
     }
   }
-  for(i = 0; i < n; i++)
+  for(i = 0; i < n; i++)//beleza
   {
     PercorrerCompletar(i,verdadeiro,sudoku,n,el,qnt);//ele ira percorrer o quadrante e completar o que falta
   }
